@@ -1,0 +1,109 @@
+http://172.20.186.111:9999/router/reboot.cgi?noneed=noneed
+content-type	
+text/plain; charset=UTF-8
+原始头信息
+Accept	
+*/*
+Accept-Encoding	
+gzip, deflate
+Accept-Language	
+zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Content-Length	
+13
+Content-Type	
+application/x-www-form-urlencoded
+Host	
+172.20.186.111:9999
+Referer	
+http://172.20.186.111:9999/
+User-Agent	
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0
+X-Requested-With	
+XMLHttpRequest
+
+
+
+Packet Info
+  Packet Number:        3727
+  Flags:                0x00000000
+  Status:               0x00000000
+  Packet Length:        460
+  Timestamp:            10:13:49.564289400 09/29/2017
+Ethernet Type 2
+  Destination:          08:6A:3D:96:88:EF  [0-5]
+  Source:               08:60:6E:D4:58:1C  [6-11]
+  Protocol Type:        0x0800  IP  [12-13]
+IP Version 4 Header - Internet Protocol Datagram
+  Version:              4  [14 Mask 0xF0]
+  Header Length:        5  (20 bytes)  [14 Mask 0x0F]
+  Diff. Services:       %00000000  [15]
+                        0000 00.. Default
+                        .... ..00 Not-ECT
+
+  Total Length:         442  [16-17]
+  Identifier:           13789  [18-19]
+  Fragmentation Flags:  %010  [20 Mask 0xE0]
+                        0.. Reserved
+                        .1. Do Not Fragment
+                        ..0 Last Fragment
+
+  Fragment Offset:      0  (0 bytes)  [20-21 Mask 0x1FFF]
+  Time To Live:         128  [22]
+  Protocol:             6  TCP - Transmission Control Protocol  [23]
+  Header Checksum:      0xF651  [24-25]
+  Source IP Address:    172.20.186.118  [26-29]
+  Dest. IP Address:     172.20.186.111  [30-33]
+TCP - Transport Control Protocol
+  Source Port:          23138  [34-35]
+  Destination Port:     9999  [36-37]
+  Sequence Number:      2650440854  [38-41]
+  Ack Number:           1126317007  [42-45]
+  TCP Offset:           5  (20 bytes)  [46 Mask 0xF0]
+  Reserved:             %0000  [46 Mask 0x0F]
+  TCP Flags:            %00011000  ...AP...  [47]
+                        0... .... (No Congestion Window Reduction)
+                        .0.. .... (No ECN-Echo)
+                        ..0. .... (No Urgent pointer)
+                        ...1 .... Ack
+                        .... 1... Push
+                        .... .0.. (No Reset)
+                        .... ..0. (No SYN)
+                        .... ...0 (No FIN)
+
+  Window:               256  [48-49]
+  TCP Checksum:         0xE98F  [50-51]
+  Urgent Pointer:       0  [52-53]
+  No TCP Options
+Napster
+  Length                17735  [54-55]
+  Type                  8276  [56-57]
+  Data  /reboot.htm?_=1506651229546 HTTP/1.1..Host: 172.20.186.111:9999..User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0..Accept: text/html, */*..Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3..Accept-Encoding: gzip, deflate..X-Requested-With: XMLHttpRequest..Referer: http://172.20.186.111:9999/..Authorization: Basic Z3Vlc3Q6Z3Vlc3Q=..Connection: keep-alive........  [58-459]
+FCS - Frame Check Sequence
+  FCS:                  0x8DB13D84  Calculated
+
+
+
+
+
+http://172.20.186.104:9999/router/virtual_service_add_del.cgi?in_end_port=&in_ip=192.168.1.33&in_start_port=22&mode=0&name=1&out_end_port=&out_start_port=22&proto=tcp&remote_ip=10.0.0.10&uiname=ALL
+
+in_end_port	
+in_ip	
+192.168.1.33
+in_start_port	
+22
+mode	
+0
+name	
+1
+out_end_port	
+out_start_port	
+22
+proto	
+tcp
+remote_ip	
+10.0.0.10
+uiname	
+ALL
+
+http://172.20.186.104:9999/router/virtual_service_list_show.cgi?noneed=noneed
